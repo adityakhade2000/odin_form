@@ -1,0 +1,131 @@
+.login {
+    height: 100%;
+    width: 100%;
+    margin-top: -8px;
+    margin-left: -8px;
+    position:fixed;
+    background: radial-gradient(#68b7c6, #d99cee);
+}
+
+.login_box{
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px, 4px, 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+
+.login_box .left{
+    width: 45%;
+    height: 100%;
+    padding: 25px 25px;
+}
+
+.login_box .right{
+    width:55%;
+    height: 100%;
+}
+
+.right .contact{
+    display:block;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 90%;
+    margin: 30px 20px 30px 20px;
+    }
+
+.right .value{
+    margin: 10px 0px;
+    border: 1px solid rgb(207, 203, 203);
+    width: 100%;
+    height: 29px;
+    border-radius: 7px;
+    overflow: hidden;
+    background: transparent;
+    font-size: 14px;
+}
+
+.left{
+    background: url("image.jpg");
+    background-size: 340px 500px;
+    color: #fff;
+    position: relative;
+    /* height: 80px; */
+    /* width: 80px; */
+}
+
+.right button{
+    margin-top: 20px;
+    background: rgb(9, 83, 179);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.right button:hover{
+    background: rgb(22, 238, 76);
+    color: rgb(8, 8, 8);
+}
+
+.right .right-text{
+    height: 100%;
+    text-align:start;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    transform: translate(0%, 45%);
+}
+
+.right-text a{
+    display: block;
+    margin-left: 24px;
+    color:#0a6273;
+    font-size: 16px;
+    font-weight:bold
+}
+
+.right h3{
+    display: block;
+    width: 100%;
+    text-align: start;
+    font-size: 23px;
+    font-weight:bolder;    
+}
+
+.left-text .text-bold{
+    margin-top: 330px;
+    color: white;
+    font-size:28px;
+    font-family:'Trebuchet MS';
+    margin-left: -10px;
+}
+.left-text .text-bold strong{
+    font-size:medium;
+    display: block;
+    margin-top: 6px;
+}
+
+.primium{
+    margin-top: 35px;
+    margin-left: 180px;
+    font-size:large;
+    color: white;
+}
+
+.price{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: system-ui ;
+}
